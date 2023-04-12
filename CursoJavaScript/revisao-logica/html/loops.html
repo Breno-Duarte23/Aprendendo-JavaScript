@@ -8,7 +8,43 @@
 </head>
 <body>
     <script>
-        let n = prompt("Digite um número")
+        let n = prompt("Digite um númeroa")
+
+        // document.write(`1 x ${n} = ${(1 * n)}<br>`)
+        //document.write(`2 x ${n} = ${(2 * n)}<br>`)
+        //document.write(`3 x ${n} = ${(3 * n)}<br>`)
+        //document.write(`4 x ${n} = ${(4 * n)}<br>`)
+        //document.write(`5 x ${n} = ${(5 * n)}<br>`)
+
+        let indice = 0
+
+/*        while (indice <= 10) {
+            document.write(`${indice} x ${n} = ${(indice * n)}<br>`)
+            indice++
+        }
+*/
+        //document.write("saiu do loop")
+
+
+
+
+        do{
+            if (indice > 10) {
+                alert("Indice maior que 10")
+                break
+            }
+            document.write(`${indice} x ${n} = ${(indice * n)}<br>`)
+            indice++
+        } while(indice <= 10)
+
+
+
+/*
+        for (let j = 0; j <= 10; j++ ){
+            document.write(`${j} x ${n} = ${(j * n)}<br>`)
+        }
+        document.write("saiu do loop")
+*/
     </script>
 </body>
 </html>
